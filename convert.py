@@ -16,7 +16,7 @@ is_train = []
 
 for i in range(5):
     w2ne, w2la = {}, {}
-    train, _, test, dic = ml.atisfold(2)
+    train, _, test, dic = ml.atisfold(i)
 
     w2idx, ne2idx, labels2idx = dic['words2idx'], dic['tables2idx'], dic['labels2idx']
 
